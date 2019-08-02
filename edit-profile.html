@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap 4 User Edit Form</title>
+    <meta name="description" content="Example user profile form and information editing form for Bootstrap 4." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Codeply">
+
+
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body >
+    <div class="container">
+    <div class="row m-y-2">
+        <!-- edit form column -->
+        <div class="col-lg-4 text-lg-center">
+            <h2>Edit Profile</h2>
+        </div>
+        <div class="col-lg-8">
+            <div class="alert alert-info alert-dismissable"> <a class="panel-close close" data-dismiss="alert">×</a>
+                Welcome! Please edit your profile below:
+            </div>
+        </div>
+        <div class="col-lg-8 push-lg-4 personal-info">
+             <form role="form">
+                <div class="form-group row">
+                    <label class="col-lg-3 col-form-label form-control-label">First name</label>
+                    <div class="col-lg-9">
+                        <input class="form-control" type="text" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-lg-3 col-form-label form-control-label">Last name</label>
+                    <div class="col-lg-9">
+                        <input class="form-control" type="text" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-lg-3 col-form-label form-control-label">Email</label>
+                    <div class="col-lg-9">
+                        <input class="form-control" type="email" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-lg-3 col-form-label form-control-label">Time Zone</label>
+                    <div class="col-lg-9">
+                        <select id="user_time_zone" class="form-control" size="0">
+                            <option value="Hawaii">(GMT-10:00) Hawaii</option>
+                            <option value="Alaska">(GMT-09:00) Alaska</option>
+                            <option value="Pacific Time (US &amp; Canada)">(GMT-08:00) Pacific Time (US &amp; Canada)</option>
+                            <option value="Arizona">(GMT-07:00) Arizona</option>
+                            <option value="Mountain Time (US &amp; Canada)">(GMT-07:00) Mountain Time (US &amp; Canada)</option>
+                            <option value="Central Time (US &amp; Canada)"
+                            selected="selected">(GMT-06:00) Central Time (US &amp; Canada)</option>
+                            <option value="Eastern Time (US &amp; Canada)">(GMT-05:00) Eastern Time (US &amp; Canada)</option>
+                            <option value="Indiana (East)">(GMT-05:00) Indiana (East)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-lg-3 col-form-label form-control-label">Username</label>
+                    <div class="col-lg-9">
+                        <input class="form-control" type="text" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-lg-3 col-form-label form-control-label">Password</label>
+                    <div class="col-lg-9">
+                        <input class="form-control" type="password" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-lg-3 col-form-label form-control-label">Confirm password</label>
+                    <div class="col-lg-9">
+                        <input class="form-control" type="password" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-lg-3 col-form-label form-control-label"></label>
+                    <div class="col-lg-9">
+                        <input type="reset" class="btn btn-secondary" value="Cancel" />
+                        <input type="button" class="btn btn-primary" value="Save Changes" />
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-4 pull-lg-8 text-xs-center">
+                <img src="//placehold.it/150" class="m-x-auto img-fluid img-circle" alt="avatar" />
+                <h6 class="m-t-2">Upload a different photo</h6>
+                <label class="custom-file">
+                  <input type="file" id="file" class="custom-file-input">
+                  <span class="custom-file-control">Choose file</span>
+                </label>
+        </div>
+    </div>
+</div>
+<hr />
+    <!--scripts loaded here-->
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js"></script>
+    
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
