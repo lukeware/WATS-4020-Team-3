@@ -4,8 +4,24 @@
    Author's custom styles
    ========================================================================== */
 
+/* Default Colors */
+body {
+  color:#2A3439;
+  background-color: #F5F2D0;
+}
 
 
+/* Buttons */
+.btn {
+  background-color: #2A3439;
+  border-color: #2A3439;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #2A3439;
+  font-weight: bold;
+}
 
 
 
